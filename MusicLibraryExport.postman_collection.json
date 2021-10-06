@@ -1,0 +1,533 @@
+{
+	"info": {
+		"_postman_id": "0abd31fb-6a2b-4150-a224-a7bdbf6bad7b",
+		"name": "MusicLibraryExport",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "findAllSongs",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/songs",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"songs"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/songs",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"songs"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "3167"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"c5f-tmJNsmV8AIE+5HknFg88YvbR3BQ\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 06 Oct 2021 00:31:57 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": 1,\n        \"title\": \"Drive My Car\",\n        \"album\": \"Rubber Soul\",\n        \"artist\": \"The Beatles\",\n        \"genre\": \"Folk Rock\",\n        \"releaseDate\": \"12/03/1965\"\n    },\n    {\n        \"id\": 2,\n        \"title\": \"Norwegian Wood\",\n        \"album\": \"Rubber Soul\",\n        \"artist\": \"The Beatles\",\n        \"genre\": \"Folk Rock\",\n        \"releaseDate\": \"12/03/1965\"\n    },\n    {\n        \"id\": 3,\n        \"title\": \"You Won't See Me\",\n        \"album\": \"Rubber Soul\",\n        \"artist\": \"The Beatles\",\n        \"genre\": \"Folk Rock\",\n        \"releaseDate\": \"12/03/1965\"\n    },\n    {\n        \"id\": 4,\n        \"title\": \"Nowhere Man\",\n        \"album\": \"Rubber Soul\",\n        \"artist\": \"The Beatles\",\n        \"genre\": \"Folk Rock\",\n        \"releaseDate\": \"12/03/1965\"\n    },\n    {\n        \"id\": 5,\n        \"title\": \"Think For Yourself\",\n        \"album\": \"Rubber Soul\",\n        \"artist\": \"The Beatles\",\n        \"genre\": \"Folk Rock\",\n        \"releaseDate\": \"12/03/1965\"\n    },\n    {\n        \"id\": 6,\n        \"title\": \"The Word\",\n        \"album\": \"Rubber Soul\",\n        \"artist\": \"The Beatles\",\n        \"genre\": \"Folk Rock\",\n        \"releaseDate\": \"12/03/1965\"\n    },\n    {\n        \"id\": 7,\n        \"title\": \"Michelle\",\n        \"album\": \"Rubber Soul\",\n        \"artist\": \"The Beatles\",\n        \"genre\": \"Folk Rock\",\n        \"releaseDate\": \"12/03/1965\"\n    },\n    {\n        \"id\": 8,\n        \"title\": \"What Goes On\",\n        \"album\": \"Rubber Soul\",\n        \"artist\": \"The Beatles\",\n        \"genre\": \"Folk Rock\",\n        \"releaseDate\": \"12/03/1965\"\n    },\n    {\n        \"id\": 9,\n        \"title\": \"Girl\",\n        \"album\": \"Rubber Soul\",\n        \"artist\": \"The Beatles\",\n        \"genre\": \"Folk Rock\",\n        \"releaseDate\": \"12/03/1965\"\n    },\n    {\n        \"id\": 10,\n        \"title\": \"I'm Looking Through You\",\n        \"album\": \"Rubber Soul\",\n        \"artist\": \"The Beatles\",\n        \"genre\": \"Folk Rock\",\n        \"releaseDate\": \"12/03/1965\"\n    },\n    {\n        \"id\": 11,\n        \"title\": \"In My Life\",\n        \"album\": \"Rubber Soul\",\n        \"artist\": \"The Beatles\",\n        \"genre\": \"Folk Rock\",\n        \"releaseDate\": \"12/03/1965\"\n    },\n    {\n        \"id\": 12,\n        \"title\": \"Wait\",\n        \"album\": \"Rubber Soul\",\n        \"artist\": \"The Beatles\",\n        \"genre\": \"Folk Rock\",\n        \"releaseDate\": \"12/03/1965\"\n    },\n    {\n        \"id\": 13,\n        \"title\": \"If I Needed Someone\",\n        \"album\": \"Rubber Soul\",\n        \"artist\": \"The Beatles\",\n        \"genre\": \"Folk Rock\",\n        \"releaseDate\": \"12/03/1965\"\n    },\n    {\n        \"id\": 14,\n        \"title\": \"Run For Your Life\",\n        \"album\": \"Rubber Soul\",\n        \"artist\": \"The Beatles\",\n        \"genre\": \"Folk Rock\",\n        \"releaseDate\": \"12/03/1965\"\n    },\n    {\n        \"id\": 15,\n        \"title\": \"The District Sleeps Alone Tonight\",\n        \"album\": \"Give Up\",\n        \"artist\": \"The Postal Service\",\n        \"genre\": \"Alternative Indie\",\n        \"releaseDate\": \"02/18/2003\"\n    },\n    {\n        \"id\": 16,\n        \"title\": \"Such Great Heights\",\n        \"album\": \"Give Up\",\n        \"artist\": \"The Postal Service\",\n        \"genre\": \"Alternative Indie\",\n        \"releaseDate\": \"02/18/2003\"\n    },\n    {\n        \"id\": 17,\n        \"title\": \"Sleeping In\",\n        \"album\": \"Give Up\",\n        \"artist\": \"The Postal Service\",\n        \"genre\": \"Alternative Indie\",\n        \"releaseDate\": \"02/18/2003\"\n    },\n    {\n        \"id\": 18,\n        \"title\": \"Nothing Better\",\n        \"album\": \"Give Up\",\n        \"artist\": \"The Postal Service\",\n        \"genre\": \"Alternative Indie\",\n        \"releaseDate\": \"02/18/2003\"\n    },\n    {\n        \"id\": 19,\n        \"title\": \"Recycled Air\",\n        \"album\": \"Give Up\",\n        \"artist\": \"The Postal Service\",\n        \"genre\": \"Alternative Indie\",\n        \"releaseDate\": \"02/18/2003\"\n    },\n    {\n        \"id\": 20,\n        \"title\": \"Clark Gable\",\n        \"album\": \"Give Up\",\n        \"artist\": \"The Postal Service\",\n        \"genre\": \"Alternative Indie\",\n        \"releaseDate\": \"02/18/2003\"\n    },\n    {\n        \"id\": 21,\n        \"title\": \"We Will Become Silhouettes\",\n        \"album\": \"Give Up\",\n        \"artist\": \"The Postal Service\",\n        \"genre\": \"Alternative Indie\",\n        \"releaseDate\": \"02/18/2003\"\n    },\n    {\n        \"id\": 22,\n        \"title\": \"This Place Is a Prison\",\n        \"album\": \"Give Up\",\n        \"artist\": \"The Postal Service\",\n        \"genre\": \"Alternative Indie\",\n        \"releaseDate\": \"02/18/2003\"\n    },\n    {\n        \"id\": 23,\n        \"title\": \"Brand New Colony\",\n        \"album\": \"Give Up\",\n        \"artist\": \"The Postal Service\",\n        \"genre\": \"Alternative Indie\",\n        \"releaseDate\": \"02/18/2003\"\n    },\n    {\n        \"id\": 24,\n        \"title\": \"Natural Anthem\",\n        \"album\": \"Give Up\",\n        \"artist\": \"The Postal Service\",\n        \"genre\": \"Alternative Indie\",\n        \"releaseDate\": \"02/18/2003\"\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "findSongById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": [
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/songs/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"songs",
+								"1"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "123"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"7b-zWi8D95BxtFt0/zPhcmleqFYBcc\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 06 Oct 2021 00:34:12 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 1,\n    \"title\": \"Drive My Car\",\n    \"album\": \"Rubber Soul\",\n    \"artist\": \"The Beatles\",\n    \"genre\": \"Folk Rock\",\n    \"releaseDate\": \"12/03/1965\"\n}"
+				}
+			]
+		},
+		{
+			"name": "createSong",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": null
+			},
+			"response": [
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\": \"Coding is My Life\",\r\n    \"album\": \"Node\",\r\n    \"artist\": \"Amanda & Bethany\",\r\n    \"genre\": \"Node Rock\",\r\n    \"releaseDate\": \"12/03/2021\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/songs",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"songs"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "127"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"7f-25eWChlcyt5fQUNb46mEPG9vvGk\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 06 Oct 2021 00:40:07 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 25,\n    \"title\": \"Coding is My Life\",\n    \"album\": \"Node\",\n    \"artist\": \"Amanda & Bethany\",\n    \"genre\": \"Node Rock\",\n    \"releaseDate\": \"12/03/2021\"\n}"
+				},
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\": \"Backend Boogie\",\r\n    \"album\": \"Node\",\r\n    \"artist\": \"Amanda & Bethany\",\r\n    \"genre\": \"Node Rock\",\r\n    \"releaseDate\": \"12/03/2021\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/songs",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"songs"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "124"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"7c-ZpvBDh/PsFmXaiwqLmT8EqoAQcE\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 06 Oct 2021 00:53:23 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 27,\n    \"title\": \"Backend Boogie\",\n    \"album\": \"Node\",\n    \"artist\": \"Amanda & Bethany\",\n    \"genre\": \"Node Rock\",\n    \"releaseDate\": \"12/03/2021\"\n}"
+				}
+			]
+		},
+		{
+			"name": "createSong Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": null
+			},
+			"response": [
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\": \"Coding is My Life\",\r\n    \"album\": \"Node\",\r\n    \"artist\": \"Amanda & Bethany\",\r\n    \"genre\": \"Node Rock\",\r\n    \"releaseDate\": \"12/03/2021\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/songs",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"songs"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "127"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"7f-25eWChlcyt5fQUNb46mEPG9vvGk\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 06 Oct 2021 00:40:07 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 25,\n    \"title\": \"Coding is My Life\",\n    \"album\": \"Node\",\n    \"artist\": \"Amanda & Bethany\",\n    \"genre\": \"Node Rock\",\n    \"releaseDate\": \"12/03/2021\"\n}"
+				}
+			]
+		},
+		{
+			"name": "updateSong",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": [
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\": \"JavaScript Blues\",\r\n    \"album\": \"Arrow functions???\",\r\n    \"artist\": \"Amanda & Bethany\",\r\n    \"genre\": \"Node Rock\",\r\n    \"releaseDate\": \"10/06/2021\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/songs/26",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"songs",
+								"26"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "142"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"8e-784nk+KtXc/+QGf2NlqNcda2xuA\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 06 Oct 2021 00:50:09 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": \"26\",\n    \"title\": \"JavaScript Blues\",\n    \"album\": \"Arrow functions???\",\n    \"artist\": \"Amanda & Bethany\",\n    \"genre\": \"Node Rock\",\n    \"releaseDate\": \"10/06/2021\"\n}"
+				}
+			]
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": [
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\": \"JavaScript Blues\",\r\n    \"album\": \"Node\",\r\n    \"artist\": \"Amanda & Bethany\",\r\n    \"genre\": \"Node Rock\",\r\n    \"releaseDate\": \"12/03/2021\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/songs",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"songs"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "126"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"7e-VYkXpDvw6uq4QsvRDeUBIIQTslY\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 06 Oct 2021 00:45:39 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 26,\n    \"title\": \"JavaScript Blues\",\n    \"album\": \"Node\",\n    \"artist\": \"Amanda & Bethany\",\n    \"genre\": \"Node Rock\",\n    \"releaseDate\": \"12/03/2021\"\n}"
+				}
+			]
+		}
+	]
+}
