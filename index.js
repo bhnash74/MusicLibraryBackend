@@ -19,7 +19,7 @@ app.get('/api/songs/:id', (req, res) => {
     const song = repoContext.songs.findSongById(id);
     return res.send(song);
 });
-app.post('/api/songs', [validateSong], (req, res) => {
+app.post('/api/songs', [validateSong],(req, res) => {
     const newSong = req.body;
     const addedSong = repoContext.songs.createSong(newSong);
     return res.send(addedSong);
